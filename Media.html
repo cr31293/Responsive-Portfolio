@@ -58,14 +58,14 @@
 
 
                 <!-- Ideally the live stream is embedded at the top of the page within the jumbotron. Currently having difficulties. Source material: https://dev.twitch.tv/docs/embed/video-and-clips -->
-                <iframe
+                <!-- <iframe
                     src="https://player.twitch.tv/cwr__&parent=https://github.com/cr31293/Responsive-Portfolio/deployments"
                     height="300"
                     width="400"
                     frameborder="0"
                     scrolling="no"
                     allowfullscreen="yes">
-                </iframe>
+                </iframe> -->
 
             </div>
         </div>
@@ -75,8 +75,10 @@
         <h1 class="text-center">Recent Stream Clips</h1>
         <div class="row">
             <div class="col-6 pt-4">
-                <a href="https://placeholder.com">
-                    <img src="https://via.placeholder.com/300" class="rounded float-right" alt=""></a>
+                <iframe src="https://clips.twitch.tv/embed?clip=IronicDoubtfulWerewolfYee&parent=https://cr31293.github.io/Responsive-Portfolio/Media.html" frameborder="0" allowfullscreen="true" scrolling="no" height="300" width="400"></iframe>
+                    <!-- again here, the idea was to have a library of top clips from stream that the user could view here but there are issues with the embedding
+                    process. My inclination is the issue for both the clip and live stream embedding is stemming from being required to list a parent domain in the src=""
+                    either twitch.tv isn't liking using github to host the domain name or i'm misreading their documentation for embedding. -->
             </div>
 
             <div class="col-6 pt-4">
