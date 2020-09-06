@@ -26,3 +26,6 @@ Contact form offering:
     * Twitter
     * GitHub
     * Email
+
+### *GitPages*
+https://cr31293.github.io/Responsive-Portfolio/
