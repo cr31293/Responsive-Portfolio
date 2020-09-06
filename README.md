@@ -13,10 +13,10 @@ Through the use of a dropdown in the Navbar two options are linked:
 * Web Portfolio
     * Github profile link through a 'font-awesome' image
     * Project area created to display finished/in-progress work
-    ** nav tabs for each project to show:
-    *** Project image
-    *** Embedded readme markdown to describe project use
-    *** Github link to project repository
+     * nav tabs for each project to show:
+     * Project image
+     * Embedded readme markdown to describe project use
+     * Github link to project repository
 
 ### *Contact*
 Contact form offering:
