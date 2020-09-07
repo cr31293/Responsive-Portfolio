@@ -15,6 +15,12 @@
             "type": "shell",
             "command": "markdown-it projectReadMes/passwordgeneratorREADME.md -o passwordREADME.html",
             "problemMatcher": []
+        },
+        {
+            "label": "Compile Markdown",
+            "type": "shell",
+            "command": "markdown-it projectReadMes/quiztimeREADME.md -o quiztimeREADME.html",
+            "problemMatcher": []
         }
     ]
 } 
